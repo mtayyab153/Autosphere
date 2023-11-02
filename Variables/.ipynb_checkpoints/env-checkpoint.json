@@ -1,0 +1,5 @@
+{
+    "API_KEY": "your_api_key",
+    "DB_HOST": "database.example.com",
+    "DB_PORT": 5432
+}
