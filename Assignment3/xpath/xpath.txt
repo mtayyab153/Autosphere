@@ -1,0 +1,34 @@
+//htmltag[@attribute='value']
+
+//htmltag[@attribute='value' and @attribute='value']
+
+//htmltag[text()='valueoftext']
+
+//htmltag[contains(text(), 'valueoftext')]
+
+//htmltag[contains(@attribute, value)]
+
+//htmltag[starts-with(@attribute, value)]
+
+//htmltag[ends-with(@attribute, value)]
+
+Dynamic / Relative XPath:
+
+parent  //htmltag[@attribute='value']//parent::tagName
+child   //htmltag[@attribute='value']//child::tagName
+self    //htmltag[@attribute='value']//self::tagName
+
+descendant  //htmltag[@attribute='value']//descendant::tagName
+descendant-or-self  //htmltag[@attribute='value']//descendant-or-self::tagName
+
+ancestor    //htmltag[@attribute='value']//ancestor::tagName
+ancestor-or-self    //htmltag[@attribute='value']//ancestor-or-self::tagName
+
+following     //htmltag[@attribute='value']//following::tagName
+following-sibling   //htmltag[@attribute='value']//following-sibling::tagName
+
+preceeding    //htmltag[@attribute='value']//preceeding::tagName
+preceeding-sibling    //htmltag[@attribute='value']//preceeding-sibling::tagName
+
+
+
